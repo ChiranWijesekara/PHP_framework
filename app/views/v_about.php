@@ -1,6 +1,6 @@
 <html>
     <head>
-        <title>About</title>
+        <title><?php echo SITENAME; ?></title>
     </head>
     <body>
         <h1>This is about page...Hi <?php echo $data['username']; ?></h1>

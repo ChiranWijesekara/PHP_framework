@@ -1,7 +1,7 @@
 <?php
 
     //load config
-    require_once 'config/config.php';
+    require_once 'config/config.php';      
 
     //load libraries..
     require_once 'libraries/Core.php';
