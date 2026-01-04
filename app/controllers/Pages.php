@@ -10,10 +10,11 @@
 
         }
 
-        public function about($name, $age){
+        public function about(){
+
+            $users =$this->pagesModel->getUsers();
             $data= [
-                'username' => $name,
-                'age' => $age
+                'users' => $users
             ];
             $this->view('v_about',$data);
         }
