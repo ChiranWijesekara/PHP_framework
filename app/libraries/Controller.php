@@ -1,9 +1,9 @@
 <?php
     class Controller{
-        public function mode($mode){
+        public function model($model){
             require_once '../app/models/' .$model.'.php';
 
-            //Intentlate the model andpass it to the controller member variable
+            // Instantiate the model and return it
             return new $model();
         }
         

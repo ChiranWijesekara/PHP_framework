@@ -1,4 +1,11 @@
 <?php
+
+    //Database Configaration
+    define('DB_HOST', 'localhost');
+    define('DB_USER', 'root');
+    define('DB_PASSWORD', '');
+    define('DB_NAME', 'phpframework');
+
     //APPROOT
     define('APPROOT', dirname(dirname(__FILE__)));
 
